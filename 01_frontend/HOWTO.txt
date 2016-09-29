@@ -1,0 +1,7 @@
+1) Install npm
+$> npm Install
+
+2) build
+$> grunt build --force
+
+3) copy dist to your destination
