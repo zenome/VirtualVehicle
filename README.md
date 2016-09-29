@@ -31,7 +31,7 @@ DEBUG=virtualvehicle:* IPADDRESS=0.0.0.0 ./bin/www
 
 Mobile app(for ios)
 <br>
-<img src="https://github.com/zenome/VirtualVehicle/blob/master/screenshot/mobileapp.png" alt="Mobile App" width="400" />
+<img src="https://github.com/zenome/VirtualVehicle/blob/master/screenshot/mobile%20app.png" alt="Mobile App" width="400" />
 ~~~~
 cd VirtualVehicle
 npm install
