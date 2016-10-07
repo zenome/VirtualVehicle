@@ -16,6 +16,7 @@ VirtualVehicle has 3 components including backend, frontend and mobile app.
 Frontend
 You need to modify google map key to the app/js/scripts/controllers/main.js
 ~~~~
+npm install grunt -g
 cd 01_frontend
 npm install
 grunt build --force
