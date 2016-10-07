@@ -17,15 +17,15 @@ Frontend
 You need to modify google map key to the app/js/scripts/controllers/main.js
 ~~~~
 npm install grunt -g
-cd 01_frontend
+cd /path/to/frontend
 npm install
 grunt build --force
-cp -R dist /path/to/02_backend/virtualvehicle/public
+cp -R dist /path/to/backend/virtualvehicle/public
 ~~~~
 
 Then, backend already had the result of frontend.
 ~~~~
-cd 02_backend
+cd /path/to/backend/virtualvehicle
 npm install
 DEBUG=virtualvehicle:* IPADDRESS=0.0.0.0 ./bin/www
 ~~~~
