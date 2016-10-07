@@ -16,25 +16,26 @@ VirtualVehicle has 3 components including backend, frontend and mobile app.
 Frontend
 You need to modify google map key to the app/js/scripts/controllers/main.js
 ~~~~
-npm install grunt -g
-cd /path/to/frontend
-npm install
-grunt build --force
-cp -R dist /path/to/backend/virtualvehicle/public
+> npm install grunt -g
+> cd /path/to/frontend
+> npm install
+> grunt build --force
+> cp -R dist /path/to/backend/virtualvehicle/public
 ~~~~
 
 Then, backend already had the result of frontend.
 ~~~~
-cd /path/to/backend/virtualvehicle
-npm install
-DEBUG=virtualvehicle:* IPADDRESS=0.0.0.0 ./bin/www
+> mongod --dbpath={your db path}
+> cd /path/to/backend/virtualvehicle
+> npm install
+> DEBUG=virtualvehicle:* IPADDRESS=0.0.0.0 ./bin/www
 ~~~~
 
 Mobile app(for ios)
 <br>
 <img src="https://github.com/zenome/VirtualVehicle/blob/master/screenshot/mobile%20app.png" alt="Mobile App" width="400" />
 ~~~~
-cd VirtualVehicle
-npm install
-react-native run-ios
+> cd VirtualVehicle
+> npm install
+> react-native run-ios
 ~~~~
