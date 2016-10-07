@@ -20,7 +20,7 @@ npm install grunt -g
 cd 01_frontend
 npm install
 grunt build --force
-cp -R dist /path/to/backend/public
+cp -R dist /path/to/02_backend/virtualvehicle/public
 ~~~~
 
 Then, backend already had the result of frontend.
