@@ -35,7 +35,7 @@ Mobile app(for ios)
 <br>
 <img src="https://github.com/zenome/VirtualVehicle/blob/master/screenshot/mobile%20app.png" alt="Mobile App" width="400" />
 ~~~~
-> cd VirtualVehicle
+> cd /path/to/app/VirtualVehicle
 > npm install
 > react-native run-ios
 ~~~~
